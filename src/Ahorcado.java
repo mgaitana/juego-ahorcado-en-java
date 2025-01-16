@@ -21,7 +21,7 @@ public class Ahorcado{
             letrasAdivinadas[i] = '_';
             System.out.print(letrasAdivinadas[i]);
         }
-
+        //ciclo while
         while (!palabraAdivinada && intentos < intentosMaximos) {
             System.out.println("Palabra a adivinar: " + String.valueOf(letrasAdivinadas) + " (" + palabrasecreta.length() + " letras)" );
             System.out.println("Introduce una letra, por favor: ");
