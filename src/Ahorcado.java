@@ -28,6 +28,7 @@ public class Ahorcado{
             char letra = Character.toLowerCase(scanner.next().charAt(0));
             boolean letraCorrecta = false;
 
+            //ciclo for de interacion
             for (int i = 0; i < palabrasecreta.length(); i++) { 
                 // estructura de control: condicional
                 if (letra == palabrasecreta.charAt(i)) {
